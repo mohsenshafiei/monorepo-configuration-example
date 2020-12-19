@@ -1,0 +1,19 @@
+{
+  "name": "Monorepo",
+  "short_name": "Monorepo",
+  "lang": "en",
+  "dir": "ltr",
+  "description": "Monorepo App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "version": "0.0.0",
+  "manifest_version": "0.0",
+  "orientation": "portrait-primary",
+  "permissions": [
+    "webRequest",
+    "background"
+  ],
+  "author": "powered by @mohsenshafiei"
+}

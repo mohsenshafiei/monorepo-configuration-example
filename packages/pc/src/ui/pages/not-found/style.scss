@@ -1,0 +1,11 @@
+.container {
+  composes: position--absolute from '~styles';
+  composes: font-size--1em from '~styles';
+  composes: top--0 from '~styles';
+  composes: left--0 from '~styles';
+  composes: right--0 from '~styles';
+  composes: bottom--0 from '~styles';
+  composes: padding--1em from '~styles';
+  composes: overflow--hidden from '~styles';
+  composes: min-width--320px from '~styles';
+}

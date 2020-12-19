@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.languageCode %>">
+<head>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+<body ontouchstart=””>
+  <noscript>
+     <style>
+       .nojavascript {
+         position: fixed;
+         background-color: white;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+       }
+       .nojavascript p {
+         width: 100%;
+         text-align: center;
+         font-family: Tahoma;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+       }
+     </style>
+     <div class="nojavascript">
+       <p>Please Enable JavaScript on Your Machine</p>
+     </div>
+   </noscript>
+  <div id="app"></div>
+</body>
+</html>

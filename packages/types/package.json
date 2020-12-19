@@ -1,0 +1,28 @@
+{
+  "name": "@monorepo/types",
+  "version": "0.1.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "scripty",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "scripty",
+    "test": "scripty"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-typescript": "^7.12.0",
+    "@microsoft/api-documenter": "^7.9.12",
+    "@microsoft/api-extractor": "^7.10.4",
+    "@types/jest": "^26.0.14",
+    "jest": "^26.5.3",
+    "typescript": "^4.0.3"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  },
+  "gitHead": "2d0fa555f467e2802139f0bef1b1f6c65bb8a7f5"
+}
